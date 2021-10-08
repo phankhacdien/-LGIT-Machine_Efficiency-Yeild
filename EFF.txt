@@ -1,0 +1,8 @@
+for j in range(0, shape[0]):
+    if ((Df['LotNum'][j] == Df['LotNum'][j+1]) and (Df['LotNum'][j] != Df['LotNum'][j-1])):
+        Df['Check start/stop'][i] = 'start'
+    elif ((Df['LotNum'][j] == Df['LotNum'][j-1]) and (Df['LotNum'][j] != Df['LotNum'][j+1])):
+        Df['Check start/stop'][j] = 'stop'
+    else:
+        Df['Check start/stop'][j] = ' '
+
