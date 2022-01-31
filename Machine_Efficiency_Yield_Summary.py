@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Oct 06 09:59:38 2021
+Created on Wed Oct  6 09:59:38 2021
 
-@author: Sherlock
+@author: dien.phan
 """
 
 from tkinter import *
